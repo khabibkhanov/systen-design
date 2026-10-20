@@ -70,7 +70,7 @@
     {
       "q": "Redis'da `appendfsync everysec` ishlatiladi. Server elektr o'chishi bilan to'xtadi. Eng yomon holatda nima yo'qoladi?",
       "options": [
-        "Taxminan oxirgi 1 soniyadagi yozishlar",
+        "Oxirgi 1 soniyagacha bo'lgan yozishlar",
         "Hech narsa",
         "Oxirgi AOF rewrite'dan keyingi barcha yozishlar",
         "Butun ma'lumot"

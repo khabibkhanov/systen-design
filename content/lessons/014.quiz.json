@@ -2,7 +2,7 @@
   "passScore": 0.8,
   "questions": [
     {
-      "q": "bigint kalitli B-tree indeksi, bargda taxminan 365 yozuv, ichki sahifada taxminan 400 ishora. 1 mlrd qator uchun daraxt balandligi qancha?",
+      "q": "bigint kalitli B-tree indeksi, bargda 366 yozuv, ichki sahifada 400 ishora. 1 mlrd qator uchun daraxt balandligi qancha?",
       "options": [
         "2 daraja",
         "4 daraja (root, 2 ichki, barg)",
@@ -10,7 +10,7 @@
         "30 daraja"
       ],
       "answer": 1,
-      "why": "10^9 / 365 taxminan 2.74 mln barg; / 400 taxminan 6 850; / 400 taxminan 18; keyin root. Katta branching factor tufayli balandlik juda sekin o'sadi."
+      "why": "10^9 / 366 ≈ 2.73 mln barg; / 400 ≈ 6 830; / 400 ≈ 18; keyin root. Katta branching factor tufayli balandlik juda sekin o'sadi."
     },
     {
       "q": "Nega 1 mlrd qatorli B-tree'da nuqtali qidiruv amalda 1-2 disk o'qishiga tushadi?",
@@ -98,7 +98,7 @@
         "LSM, chunki yozish ketma-ket, siqish yaxshi va space amplification past"
       ],
       "answer": 3,
-      "why": "LSM yozish va disk hajmiga optimallashgan; MyRocks misolida siqilgan InnoDB'dan taxminan 2 baravar kam joy."
+      "why": "LSM yozish va disk hajmiga optimallashgan; MyRocks misolida (LinkBench) siqilgan InnoDB'dan 2 baravar kam joy."
     },
     {
       "q": "PostgreSQL B-tree'da o'quvchi sahifaga kelib, qidirilayotgan kalit sahifaning high key'idan katta ekanini ko'rdi. Bu nimani anglatadi va nima qiladi?",

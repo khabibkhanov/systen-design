@@ -59,10 +59,10 @@
       "why": "Xavfsizlik-kritik endpoint himoyasiz qolmasligi kerak, umumiy API esa rate limiter sababli butunlay o'chmasligi kerak."
     },
     {
-      "q": "Sliding window log 1 million faol klient uchun, limit 100/daqiqa, har yozuv taxminan 80 bayt. Eng yomon holatda xotira taxminan qancha?",
-      "options": ["80 MB", "800 MB", "Taxminan 8 GB", "80 GB"],
+      "q": "Sliding window log 1 million faol klient uchun, limit 1 000/daqiqa. MEMORY USAGE o'lchovi 1 000 elementli sorted set uchun 118 000 bayt ko'rsatdi (skiplist encoding). Eng yomon holatda xotira taxminan qancha?",
+      "options": ["118 MB", "1.2 GB", "Taxminan 118 GB", "1.2 TB"],
       "answer": 2,
-      "why": "1 000 000 x 100 x 80 B = 8 x 10^9 B ≈ 8 GB. Shuning uchun katta masshtabda sliding window counter yoki token bucket afzal."
+      "why": "1 000 000 x 118 000 B = 1.18 x 10^11 B ≈ 118 GB. Shuning uchun katta masshtabda sliding window counter yoki token bucket afzal."
     },
     {
       "q": "Korporativ mijozning 300 xodimi bitta ofisdan ishlaydi va tez-tez 429 oladi, garchi har biri kam so'rov yuborsa ham. Eng ehtimoliy sabab?",

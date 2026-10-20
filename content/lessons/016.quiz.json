@@ -39,11 +39,11 @@
       "options": [
         "Diskdan kam o'qiydi",
         "Tranzaksiyalarni tezlashtiradi",
-        "Har bir qiymatga to'g'ri keladigan interpretatsiya overhead'ini taxminan 1 000 qiymatli vektor bo'yicha taqsimlaydi va qattiq sikllar SIMD/pipelining'ga imkon beradi",
+        "Har bir qiymatga to'g'ri keladigan interpretatsiya overhead'ini 1 000 atrofidagi qiymatli vektor (X100'da standart 1024) bo'yicha taqsimlaydi va qattiq sikllar SIMD/pipelining'ga imkon beradi",
         "Indekslarni keraksiz qiladi"
       ],
       "answer": 2,
-      "why": "MonetDB/X100 tajribasida vektor o'lchami 1 bo'lsa overhead qaytadi, juda katta bo'lsa CPU cache'dan chiqadi; taxminan 1 000 optimal."
+      "why": "MonetDB/X100 tajribasida (TPC-H Q1) vektor o'lchami 1 bo'lsa overhead qaytadi, 8K dan katta bo'lsa oraliq natijalar CPU cache'dan chiqadi; optimal 1 000 atrofida, 128-8K oralig'i yaxshi ishlagan."
     },
     {
       "q": "OLTP PostgreSQL'dan analitika uchun read replica ajratildi. Qaysi muammo hal BO'LMAYDI?",
@@ -65,7 +65,7 @@
         "Hech qanday, vaqt siqilmaydi"
       ],
       "answer": 1,
-      "why": "Deltalar bir xil (10 s), demak delta-of-delta nolga teng; Gorilla'da bunday vaqt belgilarining taxminan 96% bitta bitga siqilgan."
+      "why": "Deltalar bir xil (10 s), demak delta-of-delta nolga teng; Gorilla maqolasida vaqt belgilarining 96% ga yaqini bitta bitga siqilgan."
     },
     {
       "q": "Star schema'da fakt jadvali va o'lchov jadvali farqi qaysi?",

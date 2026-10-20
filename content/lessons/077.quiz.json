@@ -2,7 +2,7 @@
   "passScore": 0.8,
   "questions": [
     {
-      "q": "Toshkentdan Frankfurtgacha taxminan 4 700 km. Optik tolada signal ~200 km/ms. Nazariy minimal RTT qancha?",
+      "q": "Toshkentdan Frankfurtgacha katta-aylana bo'yicha 4 670 km. Optik tolada signal ~200 km/ms. Nazariy minimal RTT qancha?",
       "options": [
         "~5 ms",
         "~23 ms",
@@ -10,7 +10,7 @@
         "~150 ms"
       ],
       "answer": 2,
-      "why": "RTT ≈ 2 x 4 700 / 200 = 47 ms. Real marshrutlarda odatda bundan ham ko'p."
+      "why": "RTT ≈ 2 x 4 670 / 200 ≈ 47 ms. Real marshrutlarda odatda bundan ham ko'p."
     },
     {
       "q": "Asinxron replikatsiyali active-passive tizimda primary region to'satdan o'chdi va standby ko'tarildi. Qanday muammo kutiladi?",

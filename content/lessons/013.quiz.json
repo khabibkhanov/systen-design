@@ -65,7 +65,7 @@
         "Chunki L0 fayllari hech qachon compaction qilinmaydi"
       ],
       "answer": 0,
-      "why": "Darajalar orasidagi 10x nisbat har bir o'tishda taxminan 10 baravar qayta yozishni anglatadi; RocksDB misolida jami taxminan 33."
+      "why": "Darajalar orasidagi 10x nisbat har bir o'tishda taxminan 10 baravar qayta yozishni anglatadi; RocksDB tuning qo'llanmasi misolida jami 1 + 2 + 10 + 10 + 10 = 33."
     },
     {
       "q": "Cassandra'da gc_grace_seconds 10 kundan 1 soatga tushirildi, lekin repair haftada bir marta ishlaydi. Qanday xavf paydo bo'ladi?",

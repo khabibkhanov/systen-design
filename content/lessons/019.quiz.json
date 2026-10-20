@@ -65,7 +65,7 @@
         "Autovacuum o'chiriladi"
       ],
       "answer": 2,
-      "why": "Bu yozishning to'liq to'xtashi; undan oldin taxminan 40 mln qolganda ogohlantirishlar boshlanadi."
+      "why": "Bu yozishning to'liq to'xtashi; hujjatga ko'ra undan oldin 40 mln qolganda ogohlantirishlar boshlanadi."
     },
     {
       "q": "Uber 2016 postidagi PostgreSQL write amplification argumenti nimaga asoslangan?",

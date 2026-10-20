@@ -101,10 +101,10 @@
       "why": "To'g'ri yo'l - natijani alohida jadval yoki fayllarga yaratish (COPY, bulk) va atomik almashtirish; bu idempotentlik va rollback beradi."
     },
     {
-      "q": "Oylik hisobot uchun 400 GB siqilgan Parquet, har yadro ~150 MB/s o'qiydi, klasterda 64 yadro. Faqat skanerlash taxminan qancha vaqt oladi?",
+      "q": "Masala sharti: oylik hisobot uchun 400 GB siqilgan Parquet, har yadro 150 MB/s o'qiydi, klasterda 64 yadro, storage cheklov emas. Faqat skanerlash taxminan qancha vaqt oladi?",
       "options": ["~4 soniya", "~45 soniya", "~45 daqiqa", "~7.5 soat"],
       "answer": 1,
-      "why": "400 GB / 150 MB/s ≈ 2 700 yadro-soniya; 2 700 / 64 ≈ 42 soniya (storage o'tkazuvchanligi yetarli bo'lsa)."
+      "why": "400 000 MB / 150 MB/s ≈ 2 670 yadro-soniya; 2 670 / 64 ≈ 42 soniya."
     }
   ]
 }

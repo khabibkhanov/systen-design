@@ -49,12 +49,12 @@
       "q": "Discord xabarlar uchun nega (channel_id, bucket) partition kalitini ishlatgan?",
       "options": [
         "Cassandra bitta ustunli partition kalitni qo'llamaydi",
-        "Faol kanal partitioni cheksiz o'smasligi va eng katta kanallarda ham taxminan 100 MB dan oshmasligi uchun",
+        "Faol kanal partitioni cheksiz o'smasligi va eng katta kanallarda ham 100 MB dan oshmasligi uchun",
         "Xabarlarni foydalanuvchi bo'yicha qidirish uchun",
         "Xabarlarni tasodifiy tarqatib, hot partitionni yo'qotish uchun"
       ],
       "answer": 1,
-      "why": "Taxminan 10 kunlik bucket partition hajmini chegaralaydi va kanal tarixini vaqt bo'yicha ketma-ket o'qishni saqlab qoladi."
+      "why": "10 kunlik statik bucket partition hajmini chegaralaydi va kanal tarixini vaqt bo'yicha ketma-ket o'qishni saqlab qoladi."
     },
     {
       "q": "Document modelda kompaniya nomi 50 000 ta mashina hujjatiga nusxalangan. Nom o'zgardi. Bu qaysi muammoning namunasi?",
