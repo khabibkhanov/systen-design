@@ -46,7 +46,7 @@
       "why": "Prefill compute-bound, decode esa memory-bandwidth-bound. Shuning uchun batching decode samarasini oshiradi."
     },
     {
-      "q": "Model: 32 qatlam, 8 KV head, head o'lchami 128, FP16. 8 000 tokenli bitta so'rov uchun KV cache taxminan qancha?",
+      "q": "Llama 3.1 8B: 32 qatlam, 8 KV head, head o'lchami 128, FP16. 8 000 tokenli bitta so'rov uchun KV cache taxminan qancha?",
       "options": [
         "Taxminan 128 MB",
         "Taxminan 1 GB",

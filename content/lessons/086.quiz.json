@@ -82,12 +82,12 @@
       "q": "Discord xabarlar jadvalida partition key ni nega faqat channel_id emas, (channel_id, bucket) qilgan?",
       "options": [
         "Snowflake ID tartiblanmagani uchun",
-        "Faol kanalning partition'i cheksiz o'smasligi uchun: vaqt bucket'i (taxminan 10 kun) partition hajmini cheklaydi",
+        "Faol kanalning partition'i cheksiz o'smasligi uchun: vaqt bucket'i (Discord da 10 kunga yaqin) partition hajmini cheklaydi",
         "Bucket qidiruvni tezlashtirish uchun indeks",
         "Cassandra bitta ustunli partition key ni qo'llamaydi"
       ],
       "answer": 1,
-      "why": "Bucket partition hajmini taxminan 100 MB ichida ushlab turadi va hot/katta partition muammosini kamaytiradi."
+      "why": "Bucket partition hajmini 100 MB dan kichik ushlab turadi (Discord 2017 blogi) va hot/katta partition muammosini kamaytiradi."
     },
     {
       "q": "50 000 ulanishli gateway instansiyasi qulab tushdi. Qayta ulanishda nima qilinmasa, qolgan gateway'lar ham yiqilishi mumkin?",

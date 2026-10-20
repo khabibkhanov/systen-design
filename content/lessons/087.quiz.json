@@ -104,12 +104,12 @@
       "q": "Twitter 'For You' lentasida (2023) asosiy hisoblash narxi qayerda?",
       "options": [
         "Fan-out on write",
-        "Nomzodlarni (taxminan 1 500 ta) ML model bilan baholash va aralashtirish",
+        "Nomzodlarni (1 500 ta) ML model bilan baholash va aralashtirish",
         "Redis o'qish",
         "CDN"
       ],
       "answer": 1,
-      "why": "Algoritmik lentada fan-out faqat nomzod manbalaridan biri. Bitta bajarilish taxminan 220 CPU-soniya oladi, asosan ranking."
+      "why": "Algoritmik lentada fan-out faqat nomzod manbalaridan biri. Blogga ko'ra bitta bajarilish 220 CPU-soniya oladi, asosan ranking."
     }
   ]
 }

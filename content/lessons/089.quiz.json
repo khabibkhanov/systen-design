@@ -60,7 +60,7 @@
       "q": "HNSW ning aniq (exact) kNN ga nisbatan asosiy trade-off'i nima?",
       "options": [
         "Aniqroq, lekin sekinroq",
-        "Ancha tez (taxminan logarifmik), lekin recall 100% emas va xotira hamda qurish vaqti ko'proq",
+        "Ancha tez (maqolaga ko'ra logarifmik o'sish), lekin recall 100% emas va xotira hamda qurish vaqti ko'proq",
         "Xotira kamroq, lekin faqat 2 o'lchovda ishlaydi",
         "Faqat GPU da ishlaydi"
       ],

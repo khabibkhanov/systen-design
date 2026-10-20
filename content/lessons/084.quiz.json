@@ -32,7 +32,7 @@
         "Brauzer dekoderidan"
       ],
       "answer": 1,
-      "why": "Segment to'liq yozilishi va pleyerning bir necha segmentlik buferi oddiy HLS ning 20-30 s kechikishini beradi."
+      "why": "RFC 8216 6.3.3 bo'yicha pleyer oxirgi 3 target duration ichidan boshlamaydi: 3 x 6 = 18 s bufer, ustiga segmentni to'liq yozish 6 s va yetkazish. Jami 25-31 s."
     },
     {
       "q": "Kamera allaqachon H.264 720p oqim beradi va uni brauzerga HLS sifatida ko'rsatish kerak. Eng arzon yo'l qaysi?",
@@ -65,7 +65,7 @@
         "Arxivdan MP4 yuklab olish"
       ],
       "answer": 1,
-      "why": "WebRTC UDP ustida sub-second kechikish beradi. HLS va DASH segment asosida, odatda bir necha soniya va undan ko'p."
+      "why": "WebRTC interaktiv aloqa uchun qurilgan (UDP, SRTP, kechikish yuzlab ms darajasida). HLS va DASH segment asosida: pleyer kamida bir necha segment yoki part orqada turadi."
     },
     {
       "q": "Bitta jonli oqimni 50 000 kishi bir vaqtda ko'radi va 5 s kechikish qabul qilinadi. Nega WebRTC o'rniga LL-HLS tanlanadi?",
