@@ -67,7 +67,7 @@
         "Spanner avtomatik ravishda LWW ga o'tadi"
       ],
       "answer": 2,
-      "why": "Commit wait taxminan 2ε kutadi. ε katta bo'lsa kutish uzayadi, lekin vaqt belgilari tartibi kafolati saqlanadi."
+      "why": "Commit wait kamida 2ε kutadi. ε katta bo'lsa kutish uzayadi, lekin vaqt belgilari tartibi kafolati saqlanadi."
     },
     {
       "q": "CockroachDB'da max-offset 500 ms. Tugun soati klasterning ko'pchiligidan 450 ms farq qila boshladi. Nima bo'ladi?",
