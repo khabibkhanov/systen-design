@@ -79,7 +79,7 @@
       "why": "0.023 / 0.00099 ≈ 23. Trade-off - tiklash vaqti (RTO) va minimal muddat."
     },
     {
-      "q": "Video telemetriyadan 25 baravar qimmat va narxi saqlash muddatiga proporsional. Qaysi biznes xulosasi to'g'ri?",
+      "q": "Darsdagi misolda video har birlikka telemetriyadan ~27 baravar qimmat va narxi saqlash muddatiga proporsional. Qaysi biznes xulosasi to'g'ri?",
       "options": [
         "Video ni bepul berish kerak",
         "Telemetriya narxini oshirish",
