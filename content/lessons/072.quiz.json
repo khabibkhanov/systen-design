@@ -32,7 +32,7 @@
         "Boshqa obyektga (masalan parent papka) bog'langan tuple orqali o'tib, o'sha obyektning munosabatini oladi"
       ],
       "answer": 3,
-      "why": "Masalan, hujjatning viewer lari ichiga parent papkaning viewer lari kiradi. Birinchi variant computed_userset ga tegishli."
+      "why": "Masalan, hujjatning viewer lari ichiga parent papkaning viewer lari kiradi. Shu obyekt ichidagi hosil qilish (owner -> editor) esa computed_userset ga tegishli."
     },
     {
       "q": "Alisa Bobni hujjat ACL idan olib tashladi, keyin hujjatga maxfiy matn qo'shdi. Eskirgan replica bo'yicha check Bobga ruxsat berdi. Bu nima deb ataladi va Zanzibar uni qanday yechadi?",
