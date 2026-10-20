@@ -82,7 +82,7 @@
       "q": "Fayl S3'ga yuklandi, lekin klient complete endpoint'ini chaqirmasdan ilovani yopdi. Bazada yozuv pending holatida. To'g'ri yondashuv?",
       "options": [
         "Faylni darhol foydalanuvchiga ko'rsatish",
-        "Holat mashinasi: faqat ready holat ko'rsatiladi; eskirgan pending yozuvlarni tozalovchi job va yuklash prefiksidagi tasdiqlanmagan obyektlar uchun lifecycle o'chirish",
+        "Holat mashinasi: faqat ready holat ko'rsatiladi; eskirgan pending yozuvlarni tozalovchi job va yuklash prefiksidagi hali tasdiq olmagan obyektlar uchun lifecycle o'chirish",
         "Baza va S3'ni bitta tranzaksiyada yozish",
         "Klient qaytib kelguncha kutish"
       ],

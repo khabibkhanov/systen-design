@@ -99,7 +99,7 @@
         "Foydalanuvchi ID va vaqt birikmasi"
       ],
       "answer": 2,
-      "why": "UUIDv7 ning bir qismi vaqt, Snowflake esa deyarli to'liq taxmin qilinadi. Maxfiy token to'liq tasodifiy bo'lishi va hash bilan saqlanishi kerak."
+      "why": "UUIDv7 ning bir qismi vaqt, Snowflake esa deyarli to'liq bashorat qilinadi. Maxfiy token to'liq tasodifiy bo'lishi va hash bilan saqlanishi kerak."
     }
   ]
 }
