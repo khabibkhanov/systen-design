@@ -93,7 +93,7 @@
         "Server frame larni tartiblashi uchun"
       ],
       "answer": 2,
-      "why": "RFC 6455: mask kaliti oldindan aytib bo'lmaydigan bo'lishi kerak, shunda ilova muallifi simdagi baytlarni tanlay olmaydi. Bu shifrlash emas."
+      "why": "RFC 6455 (5.3 va 10.3 bo'limlar): mask kaliti har frame da yangi va oldindan aytib bo'lmaydigan, shuning uchun skript simdagi baytlarni tanlab, Upgrade ni tushunmaydigan proksida cache poisoning qila olmaydi. Bu shifrlash emas."
     },
     {
       "q": "Dispetcher 2 000 mashinani kuzatadi, har biri har 10 s da yangilanadi. Har bir yangilanishni alohida yuborish o'rniga 1 s lik batch qilinsa, dispetcherga soniyasiga nechta xabar ketadi?",
