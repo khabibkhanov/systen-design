@@ -13,7 +13,7 @@
       "why": "In-place yangilashda yarim yozilgan sahifa eski va yangi ma'lumot aralashmasi bo'lib qolishi mumkin; append-only'da eski qism o'zgarmaydi."
     },
     {
-      "q": "Bitcask uslubidagi engine'da 200 mln kalit bor, keydir'da bir kalitga taxminan 80 bayt ketadi. Qiymatlar o'rtacha 2 KB. Keydir uchun qancha RAM kerak?",
+      "q": "Bitcask uslubidagi engine'da 200 mln kalit bor, keydir'da bir kalitga 80 bayt ketadi (masala sharti). Qiymatlar o'rtacha 2 KB. Keydir uchun qancha RAM kerak?",
       "options": [
         "Taxminan 400 GB",
         "Taxminan 1.6 GB",
