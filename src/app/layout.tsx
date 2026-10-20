@@ -21,9 +21,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="font-semibold tracking-tight">
               System Design <span className="text-muted font-normal">/ 100 dars</span>
             </Link>
-            <Link href="/#xarita" className="text-sm text-muted hover:text-ink">
-              Xarita
-            </Link>
+            <div className="flex items-center gap-4">
+              <Link href="/#xarita" className="text-sm text-muted hover:text-ink">
+                Xarita
+              </Link>
+              {/* Hub lives in another zone, so a plain <a> (hard navigation), not <Link>. */}
+              <a href="/" className="text-sm text-muted hover:text-ink">
+                Kurslar
+              </a>
+            </div>
           </nav>
         </header>
         <main className="flex-1">{children}</main>
