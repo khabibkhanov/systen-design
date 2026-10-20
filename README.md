@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# System Design - 100 dars
 
-## Getting Started
+O'zbek tilidagi 100 darslik system design kursi. Next.js (App Router) + Tailwind, Vercel'da.
 
-First, run the development server:
+## Tuzilma
+
+- `src/lib/syllabus.ts` - 100 mavzu, 10 modul (yagona manba).
+- `content/lessons/NNN.md` - dars matni (frontmatter: `title`, `minutes`). Mermaid diagrammalar ```` ```mermaid ```` blokida.
+- `content/lessons/NNN.quiz.json` - test: `{ passScore, questions: [{ q, options, answer, why }] }`.
+- Progress (test natijasi, topshiriq javobi) brauzer `localStorage`ida saqlanadi.
+
+## Yangi dars qo'shish
+
+1. `content/lessons/NNN.md` va `NNN.quiz.json` yaratish (NNN - uch xonali raqam).
+2. Commit va `main` ga push - Vercel avtomatik deploy qiladi. Dars xaritada avtomatik ochiladi.
+
+## Dars standarti
+
+Har bir dars: maqsad, nazariya va ichki mexanika, trade-offlar, real tizimlardan misol, diagramma, hisob-kitob,
+ko'p uchraydigan xatolar, xulosa, amaliy topshiriq (baholash mezonlari bilan), manbalar (havolalar bilan).
+Test: 10 savol, o'tish chegarasi 80%.
+Matnda em-dash ishlatilmaydi, faqat "-".
+
+## Lokal ishga tushirish
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
