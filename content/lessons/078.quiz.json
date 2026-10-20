@@ -76,7 +76,7 @@
         "Ma'lumotni faqat Yevropada saqlashni"
       ],
       "answer": 0,
-      "why": "Bu umumiy lokalizatsiya talabi edi va 2021-yil apreldan amal qilgan. 2026-yilda u toraytirildi."
+      "why": "Bu umumiy lokalizatsiya talabi edi: O'RQ-666 ning 13-moddasi qonun kuchga kirganidan uch oy o'tib, 2021-yil apreldan amal qilgan. 2026-yilda u toraytirildi."
     },
     {
       "q": "2026-yil martidagi O'RQ-1125 dan keyin qaysi ma'lumotlar O'zbekistonda majburiy saqlanishi kerak (qonunning yangi tahririga ko'ra)?",
@@ -87,7 +87,7 @@
         "Hech qanday ma'lumot"
       ],
       "answer": 2,
-      "why": "Qolgan shaxsiy ma'lumotlar adekvat davlat, SCC/BCR yoki tasdiqlangan standartlar sharti bilan xorijda saqlanishi mumkin. Bu yuridik maslahat emas."
+      "why": "27¹-modda 2-qismi (O'RQ-1125, 2026-yil 27-martdan). Qolgan shaxsiy ma'lumotlar ro'yxatdagi davlat (VM 415-son qarori), SCC/BCR yoki tasdiqlangan standartlar sharti bilan xorijda saqlanishi mumkin."
     },
     {
       "q": "iQuariX error tracking SaaS ga stack trace yuboradi va unda haydovchi telefon raqamlari bor. Residency nuqtai nazaridan bu nima?",

@@ -64,10 +64,10 @@
       "why": "Deadline propagation: pastki hop faqat qolgan vaqtni oladi, tarmoq va keyingi qayta ishlash uchun biroz zaxira qoldiriladi."
     },
     {
-      "q": "Google SRE tavsiya qilgan client bo'yicha retry budget (retry'lar so'rovlarning 10 foizidan kam) eng yomon holatda yuklamani qanchaga cheklaydi?",
+      "q": "Google SRE tavsiya qilgan client bo'yicha retry budget (retry'lar so'rovlarning 10 foizidan kam) umumiy holatda yuklama o'sishini qanchaga cheklaydi?",
       "options": ["Taxminan 1.1x", "2x", "3x", "10x"],
       "answer": 0,
-      "why": "Retry ulushi 10% bilan cheklangani uchun umumiy yuklama taxminan 1.1x. Budget siz, 3 urinish bilan, 3x ga yaqinlashadi."
+      "why": "Kitobga ko'ra retry ulushi 10% bilan cheklanganda umumiy holatda o'sish 1.1x. Budget siz, faqat 3 urinish chegarasi bilan, eng yomon holat 3x dan biroz past."
     },
     {
       "q": "Hedged request uchun qaysi shart noto'g'ri?",
