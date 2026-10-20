@@ -82,7 +82,7 @@
       "q": "Leader election: lease 15 s, retry 2 s. Lider to'satdan o'lsa, eng yomon holatda yangi lider taxminan qachon ishga tushadi?",
       "options": ["~2 s", "~10 s", "~17 s", "~60 s"],
       "answer": 2,
-      "why": "Lease to'liq tugashi (15 s) va keyingi urinish oralig'i (2 s) - taxminan 17 s."
+      "why": "Lease to'liq tugashi (15 s) va keyingi urinish oralig'i (2 s): 15 + 2 = 17 s."
     },
     {
       "q": "Mashinaga haydovchi tayinlash ma'lumoti PostgreSQL'da. Bir vaqtda ikki dispetcher tayinlashidan himoyalanishning eng sodda to'g'ri usuli qaysi?",

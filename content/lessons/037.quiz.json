@@ -49,7 +49,7 @@
       "q": "Data-markaz ichida RTT 0.5 ms, har fsync 1 ms. 2PC'da klientga javob (prepare + qaror yozuvi) taxminan qancha vaqt oladi?",
       "options": ["~1 ms", "~2.5 ms", "~10 ms", "~80 ms"],
       "answer": 1,
-      "why": "Prepare round-trip 0.5 + ishtirokchi fsync 1 + koordinator qaror fsync 1 = taxminan 2.5 ms. Lock'lar esa 2-faza tugaguncha, taxminan 4 ms ushlanadi."
+      "why": "Prepare round-trip 0.5 + ishtirokchi fsync 1 + koordinator qaror fsync 1 = 2.5 ms. Lock'lar esa 2-faza tugaguncha, 2.5 + 0.5 + 1 = 4 ms ushlanadi."
     },
     {
       "q": "3 ishtirokchi va koordinator, har biri 99.9% mavjud. 2PC tranzaksiyasining muvaffaqiyatli bajarilish ehtimoli taxminan qancha?",
@@ -61,7 +61,7 @@
       "q": "Nega three-phase commit amaliyotda 2PC'ning blocking muammosini hal qilmaydi?",
       "options": [
         "U juda sekin",
-        "U chegaralangan tarmoq kechikishi va javob vaqtini taxmin qiladi; real tarmoqda bu taxmin buzilganda atomicity kafolatlanmaydi",
+        "U chegaralangan tarmoq kechikishi va javob vaqtini talab qiladi; real tarmoqda bu shart buzilganda atomicity kafolatlanmaydi",
         "U faqat ikki ishtirokchi bilan ishlaydi",
         "U diskka yozmaydi"
       ],
