@@ -104,12 +104,12 @@
       "q": "Netflix Chaos Kong mashqlari 2015 yil sentyabrdagi us-east-1 DynamoDB muammosida qanday foyda berdi?",
       "options": [
         "Hech qanday foyda bermadi",
-        "Muntazam region evakuatsiyasi mashqlari zaifliklarni oldindan ochgani uchun Netflix faqat qisqa availability tebranishini ko'rdi",
+        "Muntazam region evakuatsiyasi mashqlari tufayli tizim trafikni boshqa regionga o'tkazishga tayyor edi va Netflix faqat qisqa availability tebranishini ko'rdi",
         "Netflix DynamoDB dan voz kechdi",
         "Chaos Kong DynamoDB ni tuzatdi"
       ],
       "answer": 1,
-      "why": "Netflix TechBlog ga ko'ra mashqlarda topilgan tizimli zaifliklar tuzatilgan edi, shuning uchun real hodisada trafik failover i ishladi."
+      "why": "Netflix TechBlog ga ko'ra Chaos Kong mashqlari tufayli tizim region ishdan chiqqanda trafikni o'tkazishga tayyor edi, shuning uchun jiddiy ta'sirdan qochildi."
     }
   ]
 }

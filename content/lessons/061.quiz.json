@@ -67,7 +67,7 @@
         "Fallback faqat bitta serverda ishlaydi"
       ],
       "answer": 1,
-      "why": "Fallback eng yomon paytda qo'shimcha yuklama yaratadi va sinovdan o'tmagan bo'ladi. Amazon ning taxminan 2001 yildagi uzilishi aynan shunday bo'lgan."
+      "why": "Fallback eng yomon paytda qo'shimcha yuklama yaratadi va sinovdan o'tmagan bo'ladi. Gabrielson maqolasidagi Amazon uzilishi (maqolaga ko'ra 2001 yil atrofida) aynan shunday bo'lgan."
     },
     {
       "q": "8 ta worker, har bir mijozga tasodifiy 2 tasi beriladi (shuffle sharding). Bitta mijoz o'z ikki worker ini yiqitsa, boshqa mijozlarning qancha ulushi to'liq ishlamay qoladi?",
