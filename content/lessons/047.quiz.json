@@ -35,7 +35,7 @@
       "why": "Invariantlar write tomonida tekshiriladi. Eskirgan read model asosidagi qaror ikki marta biriktirishga olib keladi."
     },
     {
-      "q": "Event store'da 1.2 mlrd hodisa, projection 15 000 hodisa/s yozadi, 6 ta parallel worker (to'liq masshtablanadi deb faraz qiling). Qayta qurish taxminan qancha davom etadi?",
+      "q": "Event store'da 1.2 mlrd hodisa, projection 15 000 hodisa/s yozadi, 6 ta parallel worker, Elasticsearch ularning hammasini ko'taradi, yangi hodisalar hisobga olinmaydi. Qayta qurish taxminan qancha davom etadi?",
       "options": [
         "Taxminan 3.7 soat",
         "Taxminan 1.5 soat",

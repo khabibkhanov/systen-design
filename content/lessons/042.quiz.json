@@ -32,7 +32,7 @@
         "Taxminan $31 100"
       ],
       "answer": 0,
-      "why": "1 000 xabar/s x 86 400 x 30 = 2.59 mlrd xabar, x 3 so'rov = 7.78 mlrd so'rov, x $0.40 / mln = taxminan $3 110."
+      "why": "1 000 xabar/s x 86 400 x 30 = 2 592 mln xabar, x 3 so'rov = 7 776 mln so'rov; 1 mln bepul so'rovni ayirib, x $0.40 / mln = taxminan $3 110."
     },
     {
       "q": "SQS FIFO navbatida barcha xabarlar bitta MessageGroupId bilan yuboriladi va 20 ta consumer bor. Natija qanday?",
