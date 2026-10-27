@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getLesson, publishedNumbers } from "@/lib/lessons";
-import { LINE_COLORS, MODULES, moduleOf } from "@/lib/syllabus";
+import { LINE_COLORS, MODULES, TOPICS, moduleOf } from "@/lib/syllabus";
 import { Markdown, headingsOf } from "@/components/markdown";
 import { Quiz } from "@/components/quiz";
 import { AnswerBox } from "@/components/answer-box";
@@ -89,7 +89,7 @@ export default async function LessonPage({ params }: PageProps<"/dars/[n]">) {
             <span className="font-semibold" style={{ color }}>
               {n}-dars
             </span>{" "}
-            / 100, {MODULES[mod.id - 1].title.toLowerCase()}, taxminan {lesson.minutes} daqiqa
+            / {TOPICS.length}, {MODULES[mod.id - 1].title.toLowerCase()}, taxminan {lesson.minutes} daqiqa
           </p>
           <h1 className="text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">{lesson.title}</h1>
         </header>

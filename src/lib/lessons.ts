@@ -1,12 +1,13 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { COURSE } from "./course";
 
 export type QuizQuestion = { q: string; options: string[]; answer: number; why: string };
 export type Quiz = { passScore: number; questions: QuizQuestion[] };
 export type Lesson = { n: number; title: string; minutes: number; body: string; quiz: Quiz | null };
 
-const DIR = path.join(process.cwd(), "content", "lessons");
+const DIR = path.join(process.cwd(), "content", COURSE.contentDir);
 const pad = (n: number) => String(n).padStart(3, "0");
 
 export function publishedNumbers(): number[] {

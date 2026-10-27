@@ -1,12 +1,13 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
+import { COURSE } from "./course";
 
 export type LessonProgress = { score: number; passed: boolean; answer?: string };
 type Store = Record<string, LessonProgress>;
 
-const KEY = "sd-uz-progress";
-const EVENT = "sd-uz-progress-change";
+const KEY = COURSE.progressKey;
+const EVENT = `${COURSE.progressKey}-change`;
 
 function read(): Store {
   try {

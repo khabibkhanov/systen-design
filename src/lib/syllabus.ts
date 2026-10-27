@@ -1,9 +1,12 @@
+import { COURSE_ID } from "./course";
+import { CS50 } from "./syllabus-cs50";
+
 export type Topic = { n: number; title: string };
 export type Module = { id: number; title: string; goal: string; topics: Topic[] };
 
 const t = (n: number, title: string): Topic => ({ n, title });
 
-export const MODULES: Module[] = [
+const SYSTEM_DESIGN: Module[] = [
   {
     id: 1,
     title: "Asoslar va fikrlash usuli",
@@ -175,6 +178,8 @@ export const MODULES: Module[] = [
     ],
   },
 ];
+
+export const MODULES: Module[] = COURSE_ID === "cs50" ? CS50 : SYSTEM_DESIGN;
 
 export const LINE_COLORS = [
   "#2f5bea", "#1f8a5b", "#b4441f", "#7a4ccf", "#0f8b9c",

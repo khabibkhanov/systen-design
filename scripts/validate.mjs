@@ -1,17 +1,18 @@
 // Validates lesson files: frontmatter title vs syllabus, quiz shape, forbidden dashes, required sections.
-// Usage: node scripts/validate.mjs [from] [to]
+// Usage: [NEXT_PUBLIC_COURSE=cs50] node scripts/validate.mjs [from] [to]
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 
 const root = path.resolve(import.meta.dirname, "..");
-const dir = path.join(root, "content", "lessons");
-const syllabusSrc = fs.readFileSync(path.join(root, "src/lib/syllabus.ts"), "utf8");
+const cs50 = process.env.NEXT_PUBLIC_COURSE === "cs50";
+const dir = path.join(root, cs50 ? "content/cs50" : "content/lessons");
+const syllabusSrc = fs.readFileSync(path.join(root, cs50 ? "src/lib/syllabus-cs50.ts" : "src/lib/syllabus.ts"), "utf8");
 const titles = Object.fromEntries(
   [...syllabusSrc.matchAll(/t\((\d+), "([^"]+)"\)/g)].map((m) => [Number(m[1]), m[2]]),
 );
 
-const [from = 1, to = 100] = process.argv.slice(2).map(Number);
+const [from = 1, to = Math.max(...Object.keys(titles).map(Number))] = process.argv.slice(2).map(Number);
 const REQUIRED = ["Ko'p uchraydigan xatolar", "Xulosa", "Amaliy topshiriq", "Manbalar"];
 const pad = (n) => String(n).padStart(3, "0");
 let failed = 0;

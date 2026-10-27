@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { LINE_COLORS, MODULES } from "@/lib/syllabus";
+import { LINE_COLORS, MODULES, TOPICS } from "@/lib/syllabus";
 import { useProgress } from "@/lib/progress";
 
 type Props = { published: number[] };
@@ -17,7 +17,7 @@ export function RouteMap({ published }: Props) {
       <div className="mb-8 flex flex-wrap items-baseline justify-between gap-2">
         <h2 className="text-2xl font-semibold">Yo'nalish xaritasi</h2>
         <p className="text-muted text-sm">
-          {passedCount} / 100 bekat o'tildi, {published.length} ta dars ochiq
+          {passedCount} / {TOPICS.length} bekat o'tildi, {published.length} ta dars ochiq
         </p>
       </div>
 
