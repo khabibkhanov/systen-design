@@ -1,3 +1,5 @@
+> **Arxiv (2026-11-03).** Bu repo endi yangilanmaydi. System Design va CS50 darslari [khabibkhanov/courses](https://github.com/khabibkhanov/courses) repo'siga ko'chdi, sayt: https://courses-pi-six.vercel.app. Vercel'dagi eski sayt (system-design-uz.vercel.app, cs50-uz.vercel.app) yangi saytdagi mos darsga yo'naltiradi va progressni olib o'tadi.
+
 # System Design - 100 dars
 
 O'zbek tilidagi 100 darslik system design kursi. Next.js (App Router) + Tailwind, Vercel'da.
